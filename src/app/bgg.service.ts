@@ -4,7 +4,7 @@ import { firstValueFrom, Subject } from "rxjs";
 import { Game } from "./models";
 
 // const BACKEND = 'http://localhost:8085'
-const BACKEND = 'http://deploymenttestapp-production.up.railway.app'
+const BACKEND = 'https://deploymenttestapp-production.up.railway.app'
 
 @Injectable()
 export class BGGService {
